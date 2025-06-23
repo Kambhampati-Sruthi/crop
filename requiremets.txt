@@ -1,4 +1,3 @@
+opencv-python
+pandas
 streamlit
-tensorflow
-opencv-python-headless
-numpy
