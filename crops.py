@@ -7,8 +7,8 @@ import joblib
 import pandas as pd
 
 # --- Configuration ---
-MODEL_PATH = "C:/AI lab/leaf_disease_model.keras"
-LABELS_PATH = "C:/AI lab/class_labels1.joblib"
+MODEL_PATH = "leaf_disease_model.keras"
+LABELS_PATH = "class_labels1.joblib"
 IMG_SIZE = 128
 
 # --- Load model and labels ---
