@@ -1,2 +1,2 @@
-
-https://drive.google.com/file/u/0/d/1aBcDeFgHiJKlmnopQRstuVWxyZ/view?usp=sharing&pli=1
+import gdown
+gdown.download("https://drive.google.com/uc?id=YOUR_FILE_ID", "leaf_disease_model.keras")
