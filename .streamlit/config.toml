@@ -2,4 +2,4 @@
 headless = true
 
 [general]
-target = "crop/app0.py"
+target = "app0.py"
