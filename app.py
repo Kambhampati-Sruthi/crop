@@ -67,3 +67,4 @@ if uploaded_file:
             st.error(f"🚨 Prediction error:\n`{e}`")
 else:
     st.info("👈 Upload a rice leaf image to get started.")
+# force rebuild after fixing tensorflow-cpu version
