@@ -1,9 +1,6 @@
 streamlit
 tensorflow-cpu==2.13.0
-opencv-python
 pillow
-joblib
-pandas
 numpy
 scikit-learn
-gdown
+
