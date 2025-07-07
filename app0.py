@@ -9,13 +9,9 @@ import cv2
 from PIL import Image
 import joblib
 import pandas as pd
-
-# --- Configuration ---
 MODEL_PATH = "leaf_disease_model.keras"
 LABELS_PATH = "class_labels1.joblib"
 IMG_SIZE = 128
-
-# --- Load model and labels ---
 @st.cache_resource
 def load_model_and_labels():
     model = tf.keras.models.load_model(MODEL_PATH)
@@ -29,8 +25,6 @@ def load_model_and_labels():
     return model, class_names
 
 model, CLASS_NAMES = load_model_and_labels()
-
-# --- Streamlit UI ---
 st.title("🌿 Rice Leaf Disease Detection")
 st.write("Upload a rice leaf image to detect possible diseases.")
 
