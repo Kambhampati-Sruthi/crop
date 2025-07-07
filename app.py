@@ -1,3 +1,7 @@
+import os
+import gdown
+if not os.path.exists("leafdiseasemodel.keras"):
+    gdown.download("https://drive.google.com/uc?id=11EZDuzAm8zFxteYhrPRDzub42wmTdFD_", "leafdiseasemodel.keras", quiet=False)
 import streamlit as st
 import numpy as np
 import tensorflow as tf
