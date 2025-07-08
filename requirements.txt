@@ -2,5 +2,4 @@ streamlit
 tensorflow-cpu==2.11.0
 pillow
 numpy
-requests
 
